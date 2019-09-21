@@ -11,14 +11,14 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="1" name="Player Tank 1" order="0" sx="0.3828125" sy="0.3828125" x="181" y="276" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="1" name="Player Tank 1" order="0" sx="1.0" sy="1.0" x="288" y="384" z="0"/>
         <actor a="0.0" aid="2" c="false" group="4" id="3" name="Alien Saucer 2" order="1" sx="1.0" sy="1.0" x="64" y="32" z="0"/>
-        <actor a="0.0" aid="10" c="false" group="4" id="5" name="Alien Grabber 10" order="2" sx="1.0" sy="1.0" x="64" y="96" z="0"/>
-        <actor a="0.0" aid="11" c="false" group="4" id="5" name="Alien Grabber 11" order="3" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
-        <actor a="0.0" aid="17" c="false" group="4" id="5" name="Alien Grabber 17" order="4" sx="1.0" sy="1.0" x="512" y="96" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="4" id="7" name="Alien Cruiser 18" order="5" sx="1.0" sy="1.0" x="64" y="160" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="4" id="7" name="Alien Cruiser 19" order="6" sx="1.0" sy="1.0" x="128" y="160" z="0"/>
-        <actor a="0.0" aid="20" c="false" group="4" id="7" name="Alien Cruiser 20" order="7" sx="1.0" sy="1.0" x="512" y="160" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="5" name="Alien Grabber 10" order="2" sx="1.0" sy="1.0" x="64" y="160" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="5" name="Alien Grabber 11" order="3" sx="1.0" sy="1.0" x="128" y="160" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="4" id="5" name="Alien Grabber 17" order="4" sx="1.0" sy="1.0" x="512" y="160" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="7" name="Alien Cruiser 18" order="5" sx="1.0" sy="1.0" x="64" y="96" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="4" id="7" name="Alien Cruiser 19" order="6" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="7" name="Alien Cruiser 20" order="7" sx="1.0" sy="1.0" x="512" y="96" z="0"/>
         <actor a="0.0" aid="21" c="false" group="4" id="7" name="Alien Cruiser 21" order="8" sx="1.0" sy="1.0" x="192" y="96" z="0"/>
         <actor a="0.0" aid="22" c="false" group="4" id="7" name="Alien Cruiser 22" order="9" sx="1.0" sy="1.0" x="256" y="96" z="0"/>
         <actor a="0.0" aid="23" c="false" group="4" id="7" name="Alien Cruiser 23" order="10" sx="1.0" sy="1.0" x="320" y="96" z="0"/>

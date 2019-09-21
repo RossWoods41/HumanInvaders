@@ -3,4 +3,6 @@
     <scene desc="" format="4.0.1" id="1" name="Level 1"/>
     <scene desc="" format="4.0.1" id="2" name="Start Screen"/>
     <scene desc="" format="4.0.1" id="3" name="Options Screen"/>
+    <scene desc="" format="4.0.1" id="4" name="Sound Options"/>
+    <scene desc="" format="4.0.1" id="5" name="ToD Screen"/>
 </scenes>
