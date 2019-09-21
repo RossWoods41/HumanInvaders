@@ -10,10 +10,10 @@
         <e enabled="false" id="test-flash"/>
     </exts>
     <bundles>
-        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
+        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
         <bundle id="com.company.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0"/>
         <bundle id="com.company.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0"/>
-        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
     </bundles>
     <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
@@ -73,6 +73,10 @@
             <r id="29"/>
             <r id="31"/>
         </group>
+        <group desc="Buttons that are in the pause menu." id="2" name="Pause_Buttons" type="actortype">
+            <r id="56"/>
+            <r id="58"/>
+        </group>
     </folders>
     <packs/>
     <groups>
@@ -93,6 +97,7 @@
         <key id="5" keyname="Z" name="action1" vk="90" vks="90"/>
         <key id="6" keyname="SPACE" name="space" vk="32" vks="32"/>
         <key id="7" keyname="DOWN" name="down" vk="40" vks="40,83"/>
+        <key id="8" keyname="P" name="pause" vk="80" vks="80"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -128,7 +133,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="1,3,5,7,9,11,13,15,16,17,18,21,23,25,27,29,31,34,35,36,38,40,42,44,46,47,48,49,50,52," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="1,3,5,7,9,11,13,15,16,17,18,21,23,25,27,29,31,34,35,36,38,40,42,44,46,47,48,49,50,52,54,56,58,60,62,64," name="Main Atlas (Default)" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

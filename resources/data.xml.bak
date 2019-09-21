@@ -35,6 +35,14 @@
             <poly data="4,0,0,147,0,147,82,0,82" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="39" fixedrot="false" fric="0.2" gid="3" id="58" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_MainMenu" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="59" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="59" name="B_MainMenu" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="61" id="0" loop="true" name="Animation 0" numframes="1" originx="161" originy="30" sync="false" version="2" width="323">
+            <poly data="4,0,0,323,0,323,61,0,61" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="3" id="50" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Night" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="51" static="false">
         <snippets/>
     </actor>
@@ -65,6 +73,22 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="28" name="B_Quit" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="52" id="0" loop="true" name="Quit" numframes="1" originx="57" originy="26" sync="false" version="2" width="114">
             <poly data="4,0,0,114,0,114,52,0,52" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="42" fixedrot="false" fric="0.2" gid="3" id="62" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Replay" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="63" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="63" name="B_Replay" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="61" id="0" loop="true" name="Animation 0" numframes="1" originx="101" originy="30" sync="false" version="2" width="202">
+            <poly data="4,0,0,202,0,202,61,0,61" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="56" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Resume" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="57" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="57" name="B_Resume" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="61" id="0" loop="true" name="Animation 0" numframes="1" originx="112" originy="30" sync="false" version="2" width="225">
+            <poly data="4,0,0,225,0,225,61,0,61" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="3" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Sound" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="false">
@@ -176,6 +200,14 @@
         </anim>
     </sprite>
     <music atlasID="0" desc="Plays when the user loses the game." id="49" loop="true" name="Lose Sound" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="44" fixedrot="false" fric="0.2" gid="3" id="64" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Lose Title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="65" name="Lose Title" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="61" id="0" loop="true" name="Animation 0" numframes="1" originx="161" originy="30" sync="false" version="2" width="323">
+            <poly data="4,0,0,323,0,323,61,0,61" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <music atlasID="0" desc="Background music for the start screen" id="47" loop="true" name="Music" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="4" id="5" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Paratrooper" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
         <snippets>
@@ -223,6 +255,14 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="14" name="Particle Bigger" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="10" id="0" loop="true" name="Animation 0" numframes="1" originx="6" originy="5" sync="false" version="2" width="13"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="36" fixedrot="false" fric="0.2" gid="3" id="54" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Pause Title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="55" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="55" name="Pause Title" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="65" id="0" loop="true" name="Animation 0" numframes="1" originx="96" originy="32" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,65,0,65" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
     </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="20" fixedrot="true" fric="0.2" gid="3" id="1" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
         <snippets>
@@ -282,4 +322,12 @@
         </anim>
     </sprite>
     <music atlasID="0" desc="The sound that plays when the player wins the game." id="48" loop="true" name="Win Sound" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="41" fixedrot="false" fric="0.2" gid="3" id="60" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Win Title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="61" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="61" name="Win Title" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="65" id="0" loop="true" name="Animation 0" numframes="1" originx="119" originy="32" sync="false" version="2" width="238">
+            <poly data="4,0,0,238,0,238,65,0,65" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
 </pack>

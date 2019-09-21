@@ -5,4 +5,7 @@
     <scene desc="" format="4.0.1" id="3" name="Options Screen"/>
     <scene desc="" format="4.0.1" id="4" name="Sound Options"/>
     <scene desc="" format="4.0.1" id="5" name="ToD Screen"/>
+    <scene desc="" format="4.0.1" id="6" name="Pause Screen"/>
+    <scene desc="" format="4.0.1" id="7" name="Win Screen"/>
+    <scene desc="" format="4.0.1" id="8" name="Lose Screen"/>
 </scenes>
