@@ -5,11 +5,15 @@
             <group eventID="1" id="-1">
                 <if comment="false" x="31" y="41">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="42" y="71">
+                        <control-sound-channel comment="false" x="42" y="71">
+                            <int id="0" val="2"/>
+                            <int id="1" val="1"/>
+                        </control-sound-channel>
+                        <setanim comment="false" x="42" y="98">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Sound_Unchecked"/>
                         </setanim>
-                        <set-game-val-3 comment="false" x="42" y="98">
+                        <set-game-val-3 comment="false" x="42" y="125">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
                     </group>
@@ -18,13 +22,17 @@
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="31" y="135">
+                <else-if comment="false" x="31" y="162">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="42" y="165">
+                        <control-sound-channel comment="false" x="42" y="192">
+                            <int id="0" val="1"/>
+                            <int id="1" val="1"/>
+                        </control-sound-channel>
+                        <setanim comment="false" x="42" y="219">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Sound_Checked"/>
                         </setanim>
-                        <set-game-val-3 comment="false" x="42" y="192">
+                        <set-game-val-3 comment="false" x="42" y="246">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
                     </group>
@@ -38,32 +46,32 @@
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="1" id="5">
-        <if comment="false" x="384" y="193">
-            <group eventID="1" id="-1">
-                <play-sound-channel comment="false" x="395" y="223">
-                    <int id="0" val="1"/>
-                    <sound eid="47" id="1"/>
-                    <int id="2" val="1"/>
-                </play-sound-channel>
-            </group>
-            <eq comment="false" id="0" x="0" y="0">
-                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                <true comment="false" id="1" x="0" y="0"/>
-            </eq>
-        </if>
-        <if comment="false" x="384" y="262">
-            <group eventID="1" id="-1">
-                <control-sound-channel comment="false" x="395" y="292">
-                    <int id="0" val="1"/>
-                    <int id="1" val="1"/>
-                </control-sound-channel>
-            </group>
-            <eq comment="false" id="0" x="0" y="0">
-                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                <false comment="false" id="1" x="0" y="0"/>
-            </eq>
-        </if>
-    </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Sound_Unchecked"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="109">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="129">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Sound_Checked"/>
+                        </setanim>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>

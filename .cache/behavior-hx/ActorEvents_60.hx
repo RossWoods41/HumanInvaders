@@ -61,57 +61,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_38 extends ActorScript
+class ActorEvents_60 extends ActorScript
 {
-	public var _IsPlaying:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Is_Playing", "_IsPlaying");
-		_IsPlaying = false;
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && 3 == mouseState)
-			{
-				if(((Engine.engine.getGameAttribute("Music_Playing") : Bool) == true))
-				{
-					resumeSoundOnChannel(1);
-					actor.setAnimation("Sound_Unchecked");
-					Engine.engine.setGameAttribute("Music_Playing", false);
-				}
-				else if(((Engine.engine.getGameAttribute("Music_Playing") : Bool) == false))
-				{
-					pauseSoundOnChannel(1);
-					actor.setAnimation("Sound_Checked");
-					Engine.engine.setGameAttribute("Music_Playing", true);
-				}
-			}
-		});
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if(((Engine.engine.getGameAttribute("Music_Playing") : Bool) == true))
-				{
-					actor.setAnimation("Sound_Unchecked");
-				}
-				else
-				{
-					actor.setAnimation("Sound_Checked");
-				}
-			}
-		});
 		
 	}
 	

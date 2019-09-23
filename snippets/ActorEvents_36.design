@@ -7,6 +7,11 @@
                     <int id="0" val="0"/>
                     <sound eid="46" id="1"/>
                 </play-sound4>
+                <scene-change-through comment="false" x="26" y="69">
+                    <scene eid="5" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0.25"/>
+                </scene-change-through>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>

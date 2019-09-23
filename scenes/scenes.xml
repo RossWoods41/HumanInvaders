@@ -8,4 +8,5 @@
     <scene desc="" format="4.0.1" id="6" name="Pause Screen"/>
     <scene desc="" format="4.0.1" id="7" name="Win Screen"/>
     <scene desc="" format="4.0.1" id="8" name="Lose Screen"/>
+    <scene desc="" format="4.0.1" id="9" name="Level 2"/>
 </scenes>
